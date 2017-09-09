@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C845ADEA21272B35EDA972D /* Pods_AskSeanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8788261A0B59648BCF73B08 /* Pods_AskSeanTests.framework */; };
 		27E2C80E1F63D35300DE6CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2C80D1F63D35300DE6CEC /* AppDelegate.swift */; };
 		27E2C8101F63D35300DE6CEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2C80F1F63D35300DE6CEC /* ViewController.swift */; };
 		27E2C8131F63D35300DE6CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E2C8111F63D35300DE6CEC /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		27E2C81B1F63D35300DE6CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E2C8191F63D35300DE6CEC /* LaunchScreen.storyboard */; };
 		27E2C8261F63D35300DE6CEC /* AskSeanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2C8251F63D35300DE6CEC /* AskSeanTests.swift */; };
 		27E2C8311F63D35300DE6CEC /* AskSeanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2C8301F63D35300DE6CEC /* AskSeanUITests.swift */; };
+		427D83A5149F7A83F47D2BF5 /* Pods_AskSeanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56992F7C9A1F41D085F43596 /* Pods_AskSeanUITests.framework */; };
+		B4C4CA4B11942CA970987F40 /* Pods_AskSean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18DF9583E030C4FD9699EC8 /* Pods_AskSean.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07E021206A32F8A4523A0EC7 /* Pods-AskSeanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskSeanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AskSeanTests/Pods-AskSeanTests.release.xcconfig"; sourceTree = "<group>"; };
 		27E2C80A1F63D35300DE6CEC /* AskSean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskSean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E2C80D1F63D35300DE6CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E2C80F1F63D35300DE6CEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		27E2C82C1F63D35300DE6CEC /* AskSeanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AskSeanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E2C8301F63D35300DE6CEC /* AskSeanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskSeanUITests.swift; sourceTree = "<group>"; };
 		27E2C8321F63D35300DE6CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5044915591F8B9AA98C3F692 /* Pods-AskSean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskSean.release.xcconfig"; path = "Pods/Target Support Files/Pods-AskSean/Pods-AskSean.release.xcconfig"; sourceTree = "<group>"; };
+		55E17D1ABC8382342866B5E7 /* Pods-AskSeanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskSeanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AskSeanTests/Pods-AskSeanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56992F7C9A1F41D085F43596 /* Pods_AskSeanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskSeanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18DF9583E030C4FD9699EC8 /* Pods_AskSean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskSean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8788261A0B59648BCF73B08 /* Pods_AskSeanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskSeanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FD58FA2497F8880D47DD7F /* Pods-AskSean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskSean.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AskSean/Pods-AskSean.debug.xcconfig"; sourceTree = "<group>"; };
+		E79F379C306D367C77B03880 /* Pods-AskSeanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskSeanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AskSeanUITests/Pods-AskSeanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9FC9B65FE3270B885A05F0F /* Pods-AskSeanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskSeanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AskSeanUITests/Pods-AskSeanUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4C4CA4B11942CA970987F40 /* Pods_AskSean.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C845ADEA21272B35EDA972D /* Pods_AskSeanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				427D83A5149F7A83F47D2BF5 /* Pods_AskSeanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				27E2C8241F63D35300DE6CEC /* AskSeanTests */,
 				27E2C82F1F63D35300DE6CEC /* AskSeanUITests */,
 				27E2C80B1F63D35300DE6CEC /* Products */,
+				5BA76A83698BEC71785C957B /* Pods */,
+				9C8530801AA7728654440539 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +116,9 @@
 		27E2C80C1F63D35300DE6CEC /* AskSean */ = {
 			isa = PBXGroup;
 			children = (
-				27E2C80D1F63D35300DE6CEC /* AppDelegate.swift */,
-				27E2C80F1F63D35300DE6CEC /* ViewController.swift */,
-				27E2C8111F63D35300DE6CEC /* Main.storyboard */,
-				27E2C8171F63D35300DE6CEC /* Assets.xcassets */,
-				27E2C8191F63D35300DE6CEC /* LaunchScreen.storyboard */,
+				27E2C83E1F6410CD00DE6CEC /* LocalAsset */,
+				27E2C83F1F6410E800DE6CEC /* Storyboard */,
+				27E2C8401F64111200DE6CEC /* Controller */,
 				27E2C81C1F63D35300DE6CEC /* Info.plist */,
 				27E2C8141F63D35300DE6CEC /* AskSean.xcdatamodeld */,
 			);
@@ -128,6 +143,55 @@
 			path = AskSeanUITests;
 			sourceTree = "<group>";
 		};
+		27E2C83E1F6410CD00DE6CEC /* LocalAsset */ = {
+			isa = PBXGroup;
+			children = (
+				27E2C8171F63D35300DE6CEC /* Assets.xcassets */,
+			);
+			name = LocalAsset;
+			sourceTree = "<group>";
+		};
+		27E2C83F1F6410E800DE6CEC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				27E2C8111F63D35300DE6CEC /* Main.storyboard */,
+				27E2C8191F63D35300DE6CEC /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		27E2C8401F64111200DE6CEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27E2C80D1F63D35300DE6CEC /* AppDelegate.swift */,
+				27E2C80F1F63D35300DE6CEC /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5BA76A83698BEC71785C957B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4FD58FA2497F8880D47DD7F /* Pods-AskSean.debug.xcconfig */,
+				5044915591F8B9AA98C3F692 /* Pods-AskSean.release.xcconfig */,
+				55E17D1ABC8382342866B5E7 /* Pods-AskSeanTests.debug.xcconfig */,
+				07E021206A32F8A4523A0EC7 /* Pods-AskSeanTests.release.xcconfig */,
+				E79F379C306D367C77B03880 /* Pods-AskSeanUITests.debug.xcconfig */,
+				E9FC9B65FE3270B885A05F0F /* Pods-AskSeanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C8530801AA7728654440539 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A18DF9583E030C4FD9699EC8 /* Pods_AskSean.framework */,
+				B8788261A0B59648BCF73B08 /* Pods_AskSeanTests.framework */,
+				56992F7C9A1F41D085F43596 /* Pods_AskSeanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E2C8351F63D35300DE6CEC /* Build configuration list for PBXNativeTarget "AskSean" */;
 			buildPhases = (
+				1A8C258BA7B0EC730F91A994 /* [CP] Check Pods Manifest.lock */,
 				27E2C8061F63D35300DE6CEC /* Sources */,
 				27E2C8071F63D35300DE6CEC /* Frameworks */,
 				27E2C8081F63D35300DE6CEC /* Resources */,
+				DAED929479C3AE6B4080099C /* [CP] Embed Pods Frameworks */,
+				26DC9EB626024E88EF03A8B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E2C8381F63D35300DE6CEC /* Build configuration list for PBXNativeTarget "AskSeanTests" */;
 			buildPhases = (
+				20DD0C076F79F25C7C874DC3 /* [CP] Check Pods Manifest.lock */,
 				27E2C81D1F63D35300DE6CEC /* Sources */,
 				27E2C81E1F63D35300DE6CEC /* Frameworks */,
 				27E2C81F1F63D35300DE6CEC /* Resources */,
+				147CD30E2F48A4094417BF2F /* [CP] Embed Pods Frameworks */,
+				42D8C1E71BA15579CF35EC3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E2C83B1F63D35300DE6CEC /* Build configuration list for PBXNativeTarget "AskSeanUITests" */;
 			buildPhases = (
+				F8C10979A1760B9DBC55E029 /* [CP] Check Pods Manifest.lock */,
 				27E2C8281F63D35300DE6CEC /* Sources */,
 				27E2C8291F63D35300DE6CEC /* Frameworks */,
 				27E2C82A1F63D35300DE6CEC /* Resources */,
+				A888E7E1249EE16A12281E4D /* [CP] Embed Pods Frameworks */,
+				C6E7A3E375E69CA982A293A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +332,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		147CD30E2F48A4094417BF2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskSeanTests/Pods-AskSeanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A8C258BA7B0EC730F91A994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AskSean-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20DD0C076F79F25C7C874DC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AskSeanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26DC9EB626024E88EF03A8B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskSean/Pods-AskSean-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D8C1E71BA15579CF35EC3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskSeanTests/Pods-AskSeanTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A888E7E1249EE16A12281E4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskSeanUITests/Pods-AskSeanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E7A3E375E69CA982A293A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskSeanUITests/Pods-AskSeanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAED929479C3AE6B4080099C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AskSean/Pods-AskSean-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskSean/Pods-AskSean-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C10979A1760B9DBC55E029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AskSeanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27E2C8061F63D35300DE6CEC /* Sources */ = {
@@ -417,6 +640,7 @@
 		};
 		27E2C8361F63D35300DE6CEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4FD58FA2497F8880D47DD7F /* Pods-AskSean.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H63JK63G6G;
@@ -430,6 +654,7 @@
 		};
 		27E2C8371F63D35300DE6CEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5044915591F8B9AA98C3F692 /* Pods-AskSean.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H63JK63G6G;
@@ -443,6 +668,7 @@
 		};
 		27E2C8391F63D35300DE6CEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E17D1ABC8382342866B5E7 /* Pods-AskSeanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +684,7 @@
 		};
 		27E2C83A1F63D35300DE6CEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E021206A32F8A4523A0EC7 /* Pods-AskSeanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +700,7 @@
 		};
 		27E2C83C1F63D35300DE6CEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79F379C306D367C77B03880 /* Pods-AskSeanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = H63JK63G6G;
@@ -487,6 +715,7 @@
 		};
 		27E2C83D1F63D35300DE6CEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9FC9B65FE3270B885A05F0F /* Pods-AskSeanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = H63JK63G6G;
@@ -518,6 +747,7 @@
 				27E2C8371F63D35300DE6CEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27E2C8381F63D35300DE6CEC /* Build configuration list for PBXNativeTarget "AskSeanTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +756,7 @@
 				27E2C83A1F63D35300DE6CEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27E2C83B1F63D35300DE6CEC /* Build configuration list for PBXNativeTarget "AskSeanUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +765,7 @@
 				27E2C83D1F63D35300DE6CEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

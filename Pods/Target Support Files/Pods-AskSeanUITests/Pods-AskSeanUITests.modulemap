@@ -1,0 +1,6 @@
+framework module Pods_AskSeanUITests {
+  umbrella header "Pods-AskSeanUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
